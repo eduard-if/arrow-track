@@ -19,10 +19,15 @@
     "@tabler/icons-react": "^2.46.0",
     "@tanstack/react-query": "^5.17.12",
     "dayjs": "^1.11.10",
+    "dexie": "^3.2.4",
+    "dexie-react-hooks": "^1.1.7",
+    "mantine-form-zod-resolver": "^1.1.0",
+    "npm": "^10.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.21.2",
-    "recharts": "^2.10.4"
+    "recharts": "^2.10.4",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
