@@ -2,6 +2,7 @@ import {AppShell, useMantineColorScheme} from '@mantine/core';
 import {useDisclosure} from '@mantine/hooks';
 import AppShellHeader from './AppShellHeader';
 import AppShellNavBar from './AppShellNavBar';
+import RoutesComponent from '../Routes/RoutesComponent';
 const AppShellMain = () => {
   const [mobileOpened, {toggle: toggleMobile, close: closeMobile}] =
     useDisclosure();
@@ -38,7 +39,9 @@ const AppShellMain = () => {
           background: !dark ? 'linear-gradient(to bottom, white, #F7F7F7)' : '',
           overflowX: 'hidden',
         }}
-      ></AppShell.Main>
+      >
+        <RoutesComponent />
+      </AppShell.Main>
     </AppShell>
   );
 };
