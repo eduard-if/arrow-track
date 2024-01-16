@@ -12,9 +12,7 @@ const AppShellNavBar = ({dark, handleMenuClose}: AppShellNavBarProps) => {
       <AppShell.Section grow component={ScrollArea} offsetScrollbars>
         <AppShellNavLinks handleMenuClose={handleMenuClose} />
       </AppShell.Section>
-      {/* SIDE MENU LOGGED IN STATUS */}
 
-      {/* SIDE MENU LOGGED IN STATUS */}
     </AppShell.Navbar>
   );
 };
